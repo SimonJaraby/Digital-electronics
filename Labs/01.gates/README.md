@@ -10,7 +10,7 @@ https://github.com/SimonJaraby/Digital-electronics-1
 
 ![Equations](Images/equations.png)
 
-### Implementácia v VHDL
+### Implementácia vo VHDL
 
 ```vhdl
 architecture dataflow of gates is
@@ -49,7 +49,7 @@ https://www.edaplayground.com/x/8Q97
 
 ![Distributives](Images/distributives.png)
 
-### Implementácia v VHDL
+### Implementácia vo VHDL
 
 ```vhdl
 architecture dataflow of gates is
