@@ -1,3 +1,3 @@
 # Digital-electronics-1
-# #  *Skúška textu*
-# # # ** skúška**
+##   *Skúška textu*
+### ** skúška**
