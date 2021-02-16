@@ -43,7 +43,7 @@ end architecture dataflow;
 
 https://www.edaplayground.com/x/8Q97
 
-## Verification of Distributive laws
+## Overenie si distribučných zákonov
 
 ### Funkcie
 
