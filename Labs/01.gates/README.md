@@ -22,7 +22,7 @@ begin
 end architecture dataflow;
 ```
 
-### Taluľka logických hodnôt
+### Tabuľka logických hodnôt
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
