@@ -41,7 +41,7 @@ end architecture dataflow;
 
 ### Playground link
 
-https://www.edaplayground.com/x/V958
+https://www.edaplayground.com/x/8Q97
 
 ## Verification of Distributive laws
 
