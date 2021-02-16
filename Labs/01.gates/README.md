@@ -1,12 +1,12 @@
-# 01-gates
+# **01-gates**
 
-## Link na môj GitHub
+## *Link na môj GitHub*
 
 https://github.com/SimonJaraby/Digital-electronics-1
 
 ## Overenie si De Morganových zákonov
 
-### Funkcie
+### *Funkcie*
 
 ![Equations](Images/equations.png)
 
