@@ -6,11 +6,11 @@ https://github.com/SimonJaraby/Digital-electronics-1
 
 ## Overenie si De Morganových zákonov
 
-### Fukncie
+### Funkcie
 
 ![Equations](Images/equations.png)
 
-### Implementation in VHDL
+### Implementácia v VHDL
 
 ```vhdl
 architecture dataflow of gates is
@@ -22,7 +22,7 @@ begin
 end architecture dataflow;
 ```
 
-### Logical table
+### Taluľka logických hodnôt
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -35,21 +35,21 @@ end architecture dataflow;
 | 1 | 1 | 0 | 0 |
 | 1 | 1 | 1 | 0 |
 
-### Time waveforms
+### Zobrazenie v čase 
 
 ![Waveforms](Images/waveforms.png)
 
-### Playground link
+### EDA Playground link
 
 https://www.edaplayground.com/x/8Q97
 
 ## Verification of Distributive laws
 
-### Equations
+### Funkcie
 
 ![Distributives](Images/distributives.png)
 
-### Implementation in VHDL
+### Implementácia v VHDL
 
 ```vhdl
 architecture dataflow of gates is
@@ -62,10 +62,10 @@ begin
 end architecture dataflow;
 ```
 
-### Time waveforms
+### Zobrazenie v čase 
 
 ![Waveforms 2](Images/waveforms2.png)
 
-### Playground link
+### EDA Playground link
 
 https://www.edaplayground.com/x/cvK3
