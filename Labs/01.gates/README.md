@@ -22,7 +22,7 @@ begin
 end architecture dataflow;
 ```
 
-### Pravdivostná ťabuľka
+### Pravdivostná tabuľka
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
