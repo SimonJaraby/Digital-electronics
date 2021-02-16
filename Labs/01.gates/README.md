@@ -4,9 +4,9 @@
 
 https://github.com/SimonJaraby/Digital-electronics-1
 
-## Verification of De Morgan's laws
+## Overenie si De Morganových zákonov
 
-### Equations
+### Fukncie
 
 ![Equations](Images/equations.png)
 
