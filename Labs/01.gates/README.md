@@ -64,7 +64,7 @@ end architecture dataflow;
 
 ### Time waveforms
 
-![Waveforms 2](Images/waveforms 2.png)
+![Waveforms 2](Images/waveforms2.png)
 
 ### Playground link
 
