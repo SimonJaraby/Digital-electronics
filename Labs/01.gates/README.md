@@ -1,8 +1,8 @@
 # 01-gates
 
-## Link to my GitHub
+## Link na môj GitHub
 
-https://github.com/SimonJaraby/Digital-electronics
+https://github.com/SimonJaraby/Digital-electronics-1
 
 ## Verification of De Morgan's laws
 
