@@ -54,7 +54,7 @@ https://www.edaplayground.com/x/V958
 ```vhdl
 architecture dataflow of gates is
 begin
-    f1_o <= (a_i and b_i)or(a_i and c_i);
+   	f1_o <= (a_i and b_i)or(a_i and c_i);
 	f2_o <= a_i and (b_i or c_i);
 	f3_o <= (a_i or b_i) and (a_i or c_i);
 	f4_o <= a_i or (b_i and c_i);
