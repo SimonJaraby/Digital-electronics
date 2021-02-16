@@ -68,4 +68,4 @@ end architecture dataflow;
 
 ### Playground link
 
-https://www.edaplayground.com/x/heWn
+https://www.edaplayground.com/x/cvK3
