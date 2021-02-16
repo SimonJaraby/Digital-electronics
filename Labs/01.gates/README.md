@@ -2,7 +2,7 @@
 
 ## Link to my GitHub
 
-https://github.com/DivinityQQ/Digital-electronics-1
+https://github.com/SimonJaraby/Digital-electronics
 
 ## Verification of De Morgan's laws
 
