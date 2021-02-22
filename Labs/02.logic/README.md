@@ -38,7 +38,7 @@ begin
 
 end architecture dataflow;
 ```
-
+![Equations](Images/K-mapa.png)
 
 
 ### EDA Playground link
