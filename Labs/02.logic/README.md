@@ -43,11 +43,7 @@
 
 https://www.edaplayground.com/x/8Q97
 
-## Overenie si distribučných zákonov
-
-### Funkcie
-
-![Distributives](Images/distributives.png)
+## 4-bitový binárny komparátor.
 
 ### Implementácia vo VHDL
 
@@ -61,10 +57,6 @@ begin
 
 end architecture dataflow;
 ```
-
-### Zobrazenie v čase 
-
-![Waveforms 2](Images/waveforms2.png)
 
 ### EDA Playground link
 
