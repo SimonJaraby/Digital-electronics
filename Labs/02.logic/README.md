@@ -44,7 +44,7 @@
 
 https://www.edaplayground.com/x/8Q97
 
-## 4-bitový binárny komparátor.
+## 3. 4-bitový binárny komparátor.
 
 ### Implementácia vo VHDL
 
