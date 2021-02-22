@@ -22,17 +22,17 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-## Funkcie
+### Funkcie
 
 ![Equations](Images/equalSopcanon.gif)
 
 ![Equations](Images/equalPoscanon.gif)
 
 
-### 2.Karnaughova mapa pre všetky funkcie
+## 2.Karnaughova mapa pre všetky funkcie
 
 ![Equations](Images/K-mapa.png)
-
+### Funkcie
 
 ![Equations](Images/simplifiedSop.png)
 
