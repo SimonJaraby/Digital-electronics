@@ -27,13 +27,21 @@
 
 ![Equations](Images/equalPoscanon.gif)
 
+![Equations](Images/simplified Sop.png)
+
+![Equations](Images/simplified Pos.png)
+
 ### Karnaughova mapa pre všetky funkcie
 
 ![Equations](Images/K-mapa.png)
 
+<<<<<<< HEAD
 ![Equations](Images/simplifiedSop.png)
 
 ![Equations](Images/simplifiedPos.png)
+=======
+
+>>>>>>> e4355f7f2885ff681ceb4504d2c2c0dba172c941
 
 ### EDA Playground link
 
