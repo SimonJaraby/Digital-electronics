@@ -33,13 +33,14 @@
 *Karnaughova mapa pre všetky funkcie*
 
 ![Equations](Images/K-mapa.png)
-### *Funkcie*
+
+*Funkcie*
 
 ![Equations](Images/simplifiedSop.png)
 
 ![Equations](Images/simplifiedPos.png)
 
-### *EDA Playground link*
+*EDA Playground link*
 
 https://www.edaplayground.com/x/8Q97
 
