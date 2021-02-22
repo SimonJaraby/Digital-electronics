@@ -1,6 +1,6 @@
 # **02-logical**
 
-##  1. Prípravné úlohy
+##  1. Príprava
 *Pravdivostná tabuľka 2-bit comparatora*
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
