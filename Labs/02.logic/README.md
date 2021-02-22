@@ -22,7 +22,7 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-### *Funkcie*
+*Funkcie*
 
 ![Equations](Images/equalSopcanon.gif)
 
