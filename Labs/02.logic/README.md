@@ -1,6 +1,7 @@
 # **02-logical**
 
-## Pravdivostná tabuľka 2-bit comparatora
+##  1. Prípravné úlohy
+	Pravdivostná tabuľka 2-bit comparatora
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -21,14 +22,14 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-### Funkcie
+## Funkcie
 
 ![Equations](Images/equalSopcanon.gif)
 
 ![Equations](Images/equalPoscanon.gif)
 
 
-### Karnaughova mapa pre všetky funkcie
+### 2.Karnaughova mapa pre všetky funkcie
 
 ![Equations](Images/K-mapa.png)
 
@@ -37,7 +38,7 @@
 
 ![Equations](Images/simplifiedPos.png)
 
-### EDA Playground link
+### EDA Playground link 
 
 https://www.edaplayground.com/x/8Q97
 
