@@ -31,6 +31,9 @@
 
 ![Equations](Images/K-mapa.png)
 
+![Equations](Images/simplified Sop.png)
+
+![Equations](Images/simplified Pos.png)
 
 ### EDA Playground link
 
