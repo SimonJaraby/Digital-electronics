@@ -27,8 +27,7 @@
 ![Equations](Images/equalSopcanon.gif)
 
 ![Equations](Images/equalPoscanon.gif)
-
-
+//
 
 ## 2. 2-bitový komparátor
 *Karnaughova mapa pre všetky funkcie*
