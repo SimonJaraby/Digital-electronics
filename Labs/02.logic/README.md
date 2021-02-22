@@ -27,9 +27,6 @@
 
 ![Equations](Images/equalPoscanon.gif)
 
-![Equations](Images/simplified Sop.png)
-
-![Equations](Images/simplified Pos.png)
 
 ### Karnaughova mapa pre všetky funkcie
 
