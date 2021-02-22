@@ -25,6 +25,8 @@
 
 ![Equations](Images/equalSopcanon.gif)
 
+![Equations](Images/equalPoscanon.gif)
+
 ### Implementácia vo VHDL
 
 ```vhdl
@@ -38,9 +40,6 @@ end architecture dataflow;
 ```
 
 
-### Zobrazenie v čase 
-
-![Waveforms](Images/equalPoscanon.gif)
 
 ### EDA Playground link
 
