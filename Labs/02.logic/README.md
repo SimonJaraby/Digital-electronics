@@ -48,6 +48,7 @@ https://www.edaplayground.com/x/uRJk
 
 ### Implementácia vo VHDL
 
+*architecture z design file*
 ```vhdl
 architecture Behavioral of comparator_4bit is
 begin
@@ -58,7 +59,7 @@ begin
 
 end architecture Behavioral;
 ```
-
+*stimulus proces z testbench file*
 ```vhdl
 p_stimulus : process
     begin
@@ -113,7 +114,14 @@ p_stimulus : process
     end process p_stimulus;
 ```
 
-
+```
+analyze design.vhd
+analyze testbench.vhd
+elaborate tb_comparator_4bit
+testbench.vhd:51:9:@0ms:(report note): Stimulus process started
+testbench.vhd:115:16:@1600ns:(assertion error): Test failed for input combination: 0000, 1111
+testbench.vhd:121:9:@1600ns:(report note): Stimulus process finished
+```
 ### EDA Playground link
 
 https://www.edaplayground.com/x/cvK3
