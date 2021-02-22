@@ -42,21 +42,21 @@
 
 *EDA Playground link*
 
-https://www.edaplayground.com/x/8Q97
+https://www.edaplayground.com/x/uRJk
 
 ## 3. 4-bitový binárny komparátor.
 
 ### Implementácia vo VHDL
 
 ```vhdl
-architecture dataflow of gates is
+architecture Behavioral of comparator_4bit is
 begin
-   	f1_o <= (a_i and b_i)or(a_i and c_i);
-	f2_o <= a_i and (b_i or c_i);
-	f3_o <= (a_i or b_i) and (a_i or c_i);
-	f4_o <= a_i or (b_i and c_i);
+    B_greater_A_o <= '1' when (b_i > a_i) else '0';
+    B_equals_A_o  <= '1' when (b_i = a_i) else '0';
+    B_less_A_o    <= '1' when (b_i < a_i) else '0';
 
-end architecture dataflow;
+
+end architecture Behavioral;
 ```
 
 ### EDA Playground link
