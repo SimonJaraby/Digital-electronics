@@ -1,7 +1,7 @@
 # **02-logical**
 
 ##  1. Príprava
-*Pravdivostná tabuľka 2-bit comparatora*
+*Pravdivostná tabuľka 2-bit komparátora*
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
