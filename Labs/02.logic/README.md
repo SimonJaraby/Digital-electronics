@@ -1,3 +1,7 @@
+# **02-logical**
+
+## Pravdivostná tabuľka 2-bit comparatora
+
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 0 | 0 0 | 0 | 1 | 0 |
@@ -17,5 +21,54 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-![Equations](Images/equalSopcanon.png)
-![Equations](Images/equalPoscanon.png)
+### Funkcie
+
+![Equations](Images/equalSopcanon.gif)
+
+### Implementácia vo VHDL
+
+```vhdl
+architecture dataflow of gates is
+begin
+    f_o  <= ((not b_i) and a_i) or ((not c_i) and (not b_i));
+    fnand_o <= not (not (not b_i and a_i) and not(not b_i and not c_i));
+    fnor_o <= (not (b_i or not a_i)) or (not (c_i or b_i));
+
+end architecture dataflow;
+```
+
+
+### Zobrazenie v čase 
+
+![Waveforms](Images/equalPoscanon.gif)
+
+### EDA Playground link
+
+https://www.edaplayground.com/x/8Q97
+
+## Overenie si distribučných zákonov
+
+### Funkcie
+
+![Distributives](Images/distributives.png)
+
+### Implementácia vo VHDL
+
+```vhdl
+architecture dataflow of gates is
+begin
+   	f1_o <= (a_i and b_i)or(a_i and c_i);
+	f2_o <= a_i and (b_i or c_i);
+	f3_o <= (a_i or b_i) and (a_i or c_i);
+	f4_o <= a_i or (b_i and c_i);
+
+end architecture dataflow;
+```
+
+### Zobrazenie v čase 
+
+![Waveforms 2](Images/waveforms2.png)
+
+### EDA Playground link
+
+https://www.edaplayground.com/x/cvK3
