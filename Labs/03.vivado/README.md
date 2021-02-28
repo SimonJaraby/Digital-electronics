@@ -24,7 +24,7 @@
 
 ## **2. Two-bit wide 4-to-1 multiplexer**
 
-###*VHDL architecture*
+### *VHDL architecture*
 ```vhdl
 architecture Behavioral of mux_2bit_4to1 is
 begin
