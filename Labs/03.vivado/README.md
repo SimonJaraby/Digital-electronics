@@ -68,6 +68,7 @@ end architecture Behavioral;
         wait;
     end process p_stimulus;
 ```
+### *Screenshot with simulated time waveforms*
 ![Simulation](Images/image1.png)
 
 
