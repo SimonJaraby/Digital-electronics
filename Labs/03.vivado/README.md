@@ -1,6 +1,6 @@
 # **03-logical**
 
-## **1.Príprava**
+## **1. Príprava**
 
 | **LED** | **Connection** | **Switch** | **Connection** | 
 | :-: | :-: | :-: | :-: |
@@ -22,7 +22,7 @@
 | LED15 | V11 | SW15 | V10 |
 
 
-## 2. **Architecture**
+## **2. Architecture**
 
 ```vhdl
 architecture Behavioral of mux_2bit_4to1 is
