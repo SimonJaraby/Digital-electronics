@@ -22,8 +22,9 @@
 | LED15 | V11 | SW15 | V10 |
 
 
-## **2. Architecture**
+## **2. Two-bit wide 4-to-1 multiplexer**
 
+###*VHDL architecture*
 ```vhdl
 architecture Behavioral of mux_2bit_4to1 is
 begin
@@ -32,6 +33,38 @@ begin
          c_i when (sel_i = "10") else
          d_i when (sel_i = "11") ;
 
-
 end architecture Behavioral;
+```
+### *VHDL stimulus*
+```vhdl
+ p_stimulus : process
+    begin
+        -- Report a note at the beginning of stimulus process
+        report "Stimulus process started" severity note;
+
+
+        -- First test values
+         s_d <= "00"; s_c <= "00"; s_b <= "00"; s_a <= "00"; 
+         s_sel <= "00";wait for 100 ns;
+         
+         s_a <= "01";wait for 100 ns;
+         s_b <= "01";wait for 100 ns;
+         
+         s_sel <= "01";wait for 100 ns;
+         s_c <= "00";wait for 100 ns;
+         s_b <= "01";wait for 100 ns;
+         
+         s_sel <= "00";wait for 100 ns;
+         s_c <= "01";wait for 100 ns;
+         s_d <= "01";wait for 100 ns;
+         
+         s_d <= "11"; s_c <= "00"; s_b <= "00"; s_a <= "00"; 
+         s_sel <= "11";wait for 100 ns;
+         
+
+
+        -- Report a note at the end of stimulus process
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
 ```
