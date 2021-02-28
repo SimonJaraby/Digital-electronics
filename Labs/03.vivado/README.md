@@ -20,3 +20,18 @@
 | LED13 | V14 | SW13 | U12 |
 | LED14 | V12 | SW14 | U11 |
 | LED15 | V11 | SW15 | V10 |
+
+
+## **2. Architecture **
+
+```vhdl
+architecture Behavioral of mux_2bit_4to1 is
+begin
+   f_o <=a_i when (sel_i = "00") else
+         b_i when (sel_i = "01") else
+         c_i when (sel_i = "10") else
+         d_i when (sel_i = "11") ;
+
+
+end architecture Behavioral;
+```
