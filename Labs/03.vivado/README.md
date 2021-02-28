@@ -1,4 +1,4 @@
-# **03.logical**
+# **03-logical**
 
 ## **1.Príprava**
 
