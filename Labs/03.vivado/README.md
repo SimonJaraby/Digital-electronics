@@ -68,7 +68,7 @@ end architecture Behavioral;
         wait;
     end process p_stimulus;
 ```
-![Simulation](Images/simplifiedSop.png)
+![Simulation](Images/image1.png)
 
 
 
