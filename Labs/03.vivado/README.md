@@ -1,6 +1,6 @@
 # **03-logical**
 
-## **1. Príprava**
+## **1. Preparation tasks**
 
 | **LED** | **Connection** | **Switch** | **Connection** | 
 | :-: | :-: | :-: | :-: |
@@ -68,3 +68,9 @@ end architecture Behavioral;
         wait;
     end process p_stimulus;
 ```
+![Simulation](Images/simplifiedSop.png)
+
+
+
+## **3. A Vivado tutorial**
+![Tutorial](Images/simplifiedSop.png)
