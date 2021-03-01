@@ -74,4 +74,8 @@ end architecture Behavioral;
 
 
 ## **3. A Vivado tutorial**
-![Tutorial](Images/simplifiedSop.png)
+![Tutorial](Images/image2.png)
+![Tutorial](Images/image3.png)
+![Tutorial](Images/image4.png)
+![Tutorial](Images/image5.png)
+![Tutorial](Images/image6.png)
