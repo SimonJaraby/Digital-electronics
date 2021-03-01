@@ -78,4 +78,5 @@ end architecture Behavioral;
 ![Tutorial](Images/image3.png)
 ![Tutorial](Images/image4.png)
 ![Tutorial](Images/image5.png)
+![Tutorial](Images/run.png)
 ![Tutorial](Images/image6.png)
