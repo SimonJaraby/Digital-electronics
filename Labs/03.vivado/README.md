@@ -75,11 +75,11 @@ end architecture Behavioral;
 
 ## **3. A Vivado tutorial**
 ![Tutorial](Images/image2.png)
-*Create file -> file type = VHDL -> file name -> ok -> next*
+*Create file -> file type = VHDL -> mux_2bit_4to1 -> ok -> next*
 ![Tutorial](Images/image3.png)
 ![Tutorial](Images/image7.png)
 ![Tutorial](Images/image8.png)
-*Create file -> file type = VHDL -> tb_projectname -> ok -> finish*
+*Create file -> file type = VHDL -> tb_mux_2bit_4to1 -> ok -> finish*
 ![Tutorial](Images/image5.png)
 ![Tutorial](Images/run.png)
 ![Tutorial](Images/image6.png)
