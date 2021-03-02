@@ -20,7 +20,7 @@
 | LED13 | V14 | SW13 | U12 |
 | LED14 | V12 | SW14 | U11 |
 | LED15 | V11 | SW15 | V10 |
-
+*LED-ky aj Switche sú active-high*
 
 ## **2. Two-bit wide 4-to-1 multiplexer**
 
