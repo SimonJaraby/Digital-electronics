@@ -212,5 +212,5 @@ hex2seg : entity work.hex_7seg
 
 ```
 ### *Screenshot with simulated time waveforms*
-![Simulation](Images/waveform1png)
+![Simulation](Images/waveform1.png)
 
