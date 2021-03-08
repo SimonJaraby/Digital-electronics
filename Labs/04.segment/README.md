@@ -2,6 +2,26 @@
 
 ## 1.Preparation tasks
 
+### *Connection of 7-segment displays on Nexys A7 board*
+| Cathode/Anode name | Connection |
+| :-: | :-: |
+| AN0 | J17 |
+| AN1 | J18 |
+| AN2 | T9 |
+| AN3 | J14 |
+| AN4 | P14 |
+| AN5 | T14 |
+| AN6 | K2 |
+| AN7 | U13 |
+| CA | T10 | 
+| CB | R10 | 
+| CC | K16 | 
+| CD | K13 | 
+| CE | P15 | 
+| CF | T11 | 
+| CG | L18 | 
+| DP | H15 |
+
 ### *Decoder truth table for common anode 7-segment display.*
 
 | Hex | Inputs | A | B | C | D | E | F | G |
@@ -22,7 +42,6 @@
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
-
 
 
 ## 2.Seven-segment display decoder
@@ -133,9 +152,6 @@ p_stimulus : process
 
 end Behavioral;
 
-
-
-
 ```
 ### *Screenshot with simulated time waveforms*
 ![Simulation](Images/waveform.png)
@@ -160,7 +176,7 @@ hex2seg : entity work.hex_7seg
 
 ## 3.LED(7:4) indicators
 
-###
+### *Truth table*
 
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -180,3 +196,21 @@ hex2seg : entity work.hex_7seg
 | d | 1101 | 1 | 0 | 0 | 1 |
 | E | 1110 | 1 | 0 | 1 | 1 |
 | F | 1111 | 1 | 0 | 0 | 1 |
+
+### *VHDL code for LEDs(7:4)*
+
+```vhdl
+   LED(3 downto 0) <= SW;
+   
+   LED(4)  <= '1' when (SW = "0000") else '0';
+   
+   LED(5)  <= '1' when (SW > "1001") else '0';
+   
+   LED(6) <= '1' when (SW = "0001" or SW = "0011" or SW = "0101" or SW = "0111" or SW = "1001" or SW = "1011" or SW = "1101" or SW = "1111") else '0';
+   
+   LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
+
+```
+### *Screenshot with simulated time waveforms*
+![Simulation](Images/waveform1.png)
+
