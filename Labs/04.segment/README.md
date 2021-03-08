@@ -22,3 +22,20 @@
 | d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+
+
+
+## 2.Seven-segment display decoder
+### *VHDL architecture*
+
+### *VHDL stimulus process*
+
+### *Screenshot with simulated time waveforms*
+![Simulation](Images/waveform.png)
+
+
+### *VHDL code from source file top.vhd*
+
+
+
+
