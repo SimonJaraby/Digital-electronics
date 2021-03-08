@@ -2,3 +2,6 @@ Running: xsim.dir/tb_hex_7seg_behav/xsimk.exe -simmode gui -wdb tb_hex_7seg_beha
 Design successfully loaded
 Design Loading Memory Usage: 6268 KB (Peak: 6268 KB)
 Design Loading CPU Usage: 62 ms
+Simulation completed
+Simulation Memory Usage: 6828 KB (Peak: 6828 KB)
+Simulation CPU Usage: 77 ms

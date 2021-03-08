@@ -3,4 +3,6 @@
 Nov 18 2020
 09:47:47
 D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd,1615218504,vhdl,,,,tb_hex_7seg,,,,,,,,
-D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sources_1/new/hex_7seg.vhd,1615218511,vhdl,D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sim_1/new/tb_hex_7seg.vhd,,,hex_7seg,,,,,,,,
+D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sim_1/new/tb_top.vhd,1615222871,vhdl,,,,tb_top,,,,,,,,
+D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sources_1/new/hex_7seg.vhd,1615218511,vhdl,D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sources_1/new/top.vhd,,,hex_7seg,,,,,,,,
+D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sources_1/new/top.vhd,1615224698,vhdl,D:/VUT bash/Digital-electronics-1/Labs/04.segment/display/display.srcs/sim_1/new/tb_top.vhd,,,top,,,,,,,,
