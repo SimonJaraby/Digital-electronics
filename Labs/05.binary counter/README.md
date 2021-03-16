@@ -1,6 +1,6 @@
-# **05-Binary counter**
+# **05-binary counter**
 
-## 1. Preparation tasks
+## 1.Preparation tasks
 
 ### *Figure or table with connection of push buttons on Nexys A7 board*
 
@@ -24,7 +24,7 @@
    | 1&nbsp;sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
    
  
-## 2. Bidirectional counter
+## 2.Bidirectional counter
 
 ### *VHDL code of the process p_cnt_up_down*
 ```vhdl
@@ -95,7 +95,7 @@
 ### *Screenshot with simulated time waveforms*
 ![Simulation](Images/waveform.png)
 
-## 3. Top level
+## 3.Top level
 ### *VHDL code from source file top.vhd with all instantiations for the 4-bit bidirectional counter*
 ```vhdl
     --------------------------------------------------------------------
