@@ -86,7 +86,7 @@
         wait;
     end process p_stimulus;
 ```
-**Screenshot with simulated time waveforms**
+### *Screenshot with simulated time waveforms*
 ![Simulation](Images/waveform.png)
 
 ## 3. Top level
