@@ -140,4 +140,4 @@
         );
 ```
 **Image of the top layer including both counters**
-![TopLayer](images/4and16bitcounter.png)
+![TopLayer](Images/1.jpg)
