@@ -133,7 +133,11 @@
             seg_o(2) => CE,
             seg_o(1) => CF,
             seg_o(0) => CG
-        );
+        ); 
+       
+    AN <= b"1111_1110";
+
+end architecture Behavioral;       
 ```
 ### *Image of the top layer including both counters*
 ![TopLayer](Images/1.jpg)
