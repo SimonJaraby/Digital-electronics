@@ -32,13 +32,11 @@
     begin
         if rising_edge(clk) then
         
-            if (reset = '1') then               -- Synchronous reset
-                s_cnt_local <= (others => '0'); -- Clear all bits
+            if (reset = '1') then               
+                s_cnt_local <= (others => '0'); 
 
-            elsif (en_i = '1') then       -- Test if counter is enabled
+            elsif (en_i = '1') then      
 
-
-                -- TEST COUNTER DIRECTION HERE
 
                 if (cnt_up_i = '1') then
                     s_cnt_local <= s_cnt_local + 1;
@@ -53,15 +51,14 @@
 ### *VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd*
 
 ```vhdl
-    --------------------------------------------------------------------
+  
     -- Reset generation process
-    --------------------------------------------------------------------
+  
     p_reset_gen : process
     begin
         s_reset <= '0';
         wait for 12 ns;
         
-        -- Reset activated
         s_reset <= '1';
         wait for 73 ns;
 
@@ -69,23 +66,21 @@
         wait;
     end process p_reset_gen;
 
-    --------------------------------------------------------------------
+   
     -- Data generation process
-    --------------------------------------------------------------------
+    
     p_stimulus : process
     begin
         report "Stimulus process started" severity note;
 
-        -- Enable counting
+      
         s_en     <= '1';
         
-        -- Change counter direction
         s_cnt_up <= '1';
         wait for 380 ns;
         s_cnt_up <= '0';
         wait for 220 ns;
 
-        -- Disable counting
         s_en     <= '0';
 
         report "Stimulus process finished" severity note;
@@ -98,8 +93,9 @@
 ## 3.Top level
 ### *VHDL code from source file top.vhd with all instantiations for the 4-bit bidirectional counter*
 ```vhdl
-    --------------------------------------------------------------------
+
     -- Instance (copy) of clock_enable entity
+    
     clk_en0 : entity work.clock_enable
         generic map(
             g_MAX   => 100000000
@@ -109,8 +105,9 @@
             reset   => BTNC,
             ce_o    => s_en
         );
-    --------------------------------------------------------------------
+
     -- Instance (copy) of cnt_up_down entity
+    
     bin_cnt0 : entity work.cnt_up_down
         generic map(
             g_CNT_WIDTH =>  4
@@ -122,11 +119,10 @@
             cnt_up_i    =>  SW(0),
             cnt_o       =>  s_cnt
         );
-
-    -- Display input value on LEDs
+        
     LED(3 downto 0) <= s_cnt;
-    --------------------------------------------------------------------
-    -- Instance (copy) of hex_7seg entity
+    
+    
     hex2seg : entity work.hex_7seg
         port map(
             hex_i    => s_cnt,
