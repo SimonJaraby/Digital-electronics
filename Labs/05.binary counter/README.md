@@ -87,7 +87,7 @@
     end process p_stimulus;
 ```
 **Screenshot with simulated time waveforms**
-![Simulation](images/simulation.png)
+![Simulation](Images/waveform.png)
 
 ## 3. Top level
 ### *VHDL code from source file top.vhd with all instantiations for the 4-bit bidirectional counter*
