@@ -2,6 +2,8 @@
 
 ## 1. Preparation tasks
 
+### *Figure or table with connection of push buttons on Nexys A7 board*
+
   | **Button name** | **Connection** | **Logic/voltage value while pressed** | **Logic/voltage value while not pressed** |
    | :-: | :-: | :-: | :-: |
    | BTNL | P17 | 1/3.3V | 0/0V |
@@ -9,6 +11,8 @@
    | BTNU | M18 | 1/3.3V | 0/0V |
    | BTND | P18 | 1/3.3V | 0/0V |
    | BTNC | N17 | 1/3.3V | 0/0V |
+   
+### *Table with calculated values*
    
    | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
    | :-: | :-: | :-: | :-: |
@@ -21,6 +25,7 @@
    
  
 ## 2. Bidirectional counter
+
 ### *VHDL code of the process p_cnt_up_down*
 ```vhdl
  p_cnt_up_down : process(clk)
@@ -46,6 +51,7 @@
     end process p_cnt_up_down;
 ```
 ### *VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd*
+
 ```vhdl
     --------------------------------------------------------------------
     -- Reset generation process
