@@ -139,5 +139,5 @@
             seg_o(0) => CG
         );
 ```
-**Image of the top layer including both counters**
+### **Image of the top layer including both counters**
 ![TopLayer](Images/1.jpg)
