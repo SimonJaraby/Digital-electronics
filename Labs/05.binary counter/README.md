@@ -49,7 +49,7 @@ begin
        end if;
     end process p_cnt_up_down;
     
-    //Output must be retyped from "unsigned" to "std_logic_vector"
+    --Output must be retyped from "unsigned" to "std_logic_vector"
     cnt_o <= std_logic_vector(s_cnt_local);
 
 end architecture behavioral;
@@ -79,7 +79,6 @@ end architecture behavioral;
     begin
         report "Stimulus process started" severity note;
 
-      
         s_en     <= '1';
         
         s_cnt_up <= '1';
@@ -99,7 +98,7 @@ end architecture behavioral;
 ## 3.Top level
 ### *VHDL code from source file top.vhd with all instantiations for the 4-bit bidirectional counter*
 ```vhdl
-
+begin
     -- Instance (copy) of clock_enable entity
     
     clk_en0 : entity work.clock_enable
