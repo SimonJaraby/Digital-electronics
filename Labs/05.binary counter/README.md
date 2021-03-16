@@ -45,7 +45,7 @@
        end if;
     end process p_cnt_up_down;
 ```
-###*VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd*
+### *VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd*
 ```vhdl
     --------------------------------------------------------------------
     -- Reset generation process
