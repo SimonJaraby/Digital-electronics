@@ -203,6 +203,6 @@ begin
 end Behavioral;
 ```
 
-### 3)Eight-digit driver
-**Screenshot with simulated time waveforms**
+## 3.Eight-digit driver
+### *Image of the driver schematic.*
 ![Drawing](Images/draw.jpg)
