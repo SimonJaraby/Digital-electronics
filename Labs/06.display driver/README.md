@@ -1,10 +1,10 @@
+# **06-display driver**
+## 1.Preparation tasks
+### *Timing diagram figure for displaying value 3.142*
+![Timing diagram](Images/diagram.png)
 
-### 1) Preparation tasks
-**Timing diagram figure for displaying value 3.142**
-![Simulation](images/diagram.png)
-
-### 2) Display driver
-**VHDL code of the process p_mux**
+## 2.Display driver
+### *VHDL code of the process p_mux*
 ```vhdl
     p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
     begin
@@ -32,7 +32,7 @@
     end process p_mux;
 ```
 
-**VHDL testbench file tb_driver_7seg_4digits**
+### *VHDL testbench file tb_driver_7seg_4digits*
 ```vhdl
 ------------------------------------------------------------------------
 --
@@ -149,10 +149,10 @@ begin
 end architecture testbench;
 ```
 
-**Screenshot with simulated time waveforms**
-![Simulation](images/simulation.png)
+### *Screenshot with simulated time waveforms*
+![Simulation](Images/simulation.png)
 
-**VHDL architecture of the top layer**
+### *VHDL architecture of the top layer*
 ```vhdl
 architecture Behavioral of top is
     -- No internal signals
