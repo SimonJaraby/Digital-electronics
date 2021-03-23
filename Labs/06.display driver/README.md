@@ -205,4 +205,4 @@ end Behavioral;
 
 ### 3)Eight-digit driver
 **Screenshot with simulated time waveforms**
-![Simulation](images/driverschematic.png)
+![Drawing](Images/draw.jpg)
