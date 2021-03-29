@@ -34,7 +34,7 @@
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle |
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle |
 
-* Completed table for T FF
+### *Completed table for T FF*
 
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
