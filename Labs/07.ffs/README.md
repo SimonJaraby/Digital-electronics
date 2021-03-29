@@ -337,7 +337,7 @@ end process p_t_ff_rst;
     end process p_stimulus;
 ```
 
-### *VHDL clock, reset, stimulus processes from testbech files d rst+
+### *VHDL clock, reset, stimulus processes from testbech files d rst*
 
 ```vhdl
     
@@ -536,7 +536,7 @@ end process p_t_ff_rst;
     end process p_stimulus;
 ```
 
-* VHDL clock, reset, stimulus processes from testbech files t rst
+ ### *VHDL clock, reset, stimulus processes from testbech files t rst*
 
 ```vhdl
     --------------------------------------------------------------------
@@ -614,7 +614,7 @@ end process p_t_ff_rst;
         wait;
     end process p_stimulus;
 ```
-* Screenshot with simulated time waveforms
+### *Screenshot with simulated time waveforms*
 
 d_ff_arst
 
