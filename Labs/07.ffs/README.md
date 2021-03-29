@@ -1,7 +1,7 @@
 # **07-latches and flip-flops**
 
 ## 1.Preparation tasks
-* Characteristic equations
+### *Characteristic equations*
 
 ![Characteristic equations](Images/chareq.gif)
 <!--
@@ -11,7 +11,7 @@
     q_{n+1}^T =&~ t\cdot \overline{q_n}\ +\overline{t}\cdot q_n &\\
 \end{align*}-->
 
-* Completed table for D FF
+### *Completed table for D FF*
 
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
@@ -21,7 +21,7 @@
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 1 | Input signal is sampled at the rising edge of clk and stored to FF |
    
    
-* Completed table for JK FF
+### *Completed table for JK FF*
 
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
