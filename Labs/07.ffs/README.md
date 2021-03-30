@@ -3,7 +3,7 @@
 ## 1.Preparation tasks
 ### *Characteristic equations*
 
-![Characteristic equations](Images/chareq.gif)
+![Equations](Images/rovnice.png)
 <!--
 \begin{align*}
     q_{n+1}^D = &~ d &\\
