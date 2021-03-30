@@ -3,6 +3,8 @@
 ## 1.Preparation tasks
 ### *Characteristic equations*
 
+
+
 ![Equations](Images/rovnice.png)
 <!--
 \begin{align*}
@@ -44,7 +46,9 @@
    | ![rising](Images/eq_uparrow.png) | 1 | 1 | 0 | Invert |
 
 
-## 2. D-Latch
+
+
+## 2.D-Latch
 ### *VHDL code of the process p_d_latch*
 
 ```vhdl
@@ -165,6 +169,10 @@ end process p_stimulus;
 ### *Screenshot with simulated time waveforms*
 
 ![Dlatch waveform](Images/d-latch.png)
+
+
+
+
 
 ## 3.Flip-flops
 
