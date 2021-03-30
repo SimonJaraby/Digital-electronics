@@ -164,7 +164,7 @@ end process p_stimulus;
 
 ### *Screenshot with simulated time waveforms*
 
-![Dlatch waveform](Images/dlatchsim.PNG)
+![Dlatch waveform](Images/d-latch.png)
 
 ## 3.Flip-flops
 
@@ -616,21 +616,21 @@ end process p_t_ff_rst;
 ```
 ### *Screenshot with simulated time waveforms*
 
-d_ff_arst
+#### *d_ff_arst*
 
-![ff wave forms](Images/darst.PNG)
+![Wave forms](Images/d-ff-arst.png)
 
-d_ff_rst
+#### *d_ff_rst*
 
-![ff wave forms](Images/drst.PNG)
+![Wave forms](Images/d-ff-rst.png)
 
-jk_ff_rst
+#### *jk_ff_rst*
 
-![ff wave forms](Images/jkrst.PNG)
+![Wave forms](Images/jk-ff-rst.png)
 
-t_ff_rst
+#### *t_ff_rst*
 
-![ff wave forms](Images/trst.PNG)
+![Wave forms](Images/t-ff-rst.png)
 
 
 
