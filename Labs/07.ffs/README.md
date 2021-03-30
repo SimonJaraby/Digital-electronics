@@ -647,4 +647,4 @@ end process p_t_ff_rst;
 
 ### *Image of the shift register schematic*
 
-![shift register schematic](Images/draw.jpeg)
+![shift register schematic](Images/draw.jpg)
