@@ -10,11 +10,11 @@
 | **State** | A | A | B | C | C | D | A | B | C | D | D | A | A | B | C | D |
 | **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `1` | `0` | `0` | `0` | `0` | `1` |
 
-### Figure with connection of RGB LEDs on NexysA7 Board
+### *Figure with connection of RGB LEDs on NexysA7 Board*
 
 ![RGB](Images/RGB_LEDs.png)
 
-### Table with color settings
+### *Completed table with color settings*
 
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
