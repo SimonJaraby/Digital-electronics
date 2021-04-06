@@ -12,7 +12,7 @@
 
 ### Figure with connection of RGB LEDs on NexysA7 Board
 
-![RGB](Images/RGB LEDs.png)
+![RGB](Images/RGB_LEDs.png)
 
 ### Table with color settings
 
