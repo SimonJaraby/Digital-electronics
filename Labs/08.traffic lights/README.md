@@ -148,8 +148,9 @@ p_output_fsm : process(s_state)
 
 ### *Screenshot with simulated time waveforms*  
 
-![traffic lights waveform](Images/waveform_tfc.PNG)
+![Screenshot with simulated time waveforms](Images/Waveform.png)
 
+![Screenshot with simulated time waveforms](Images/Waveform 2.png)
 
 
 ## 3.Smart controller
