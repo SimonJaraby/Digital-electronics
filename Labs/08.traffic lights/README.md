@@ -26,7 +26,7 @@
 
 ### *State diagram*
 
-![state diagram](Images/state_diag_tlc.PNG)
+![State diagram](Images/State_diagram_1.png)
 
 ### *Listing of VHDL code of sequential process p_traffic_fsm*
 
