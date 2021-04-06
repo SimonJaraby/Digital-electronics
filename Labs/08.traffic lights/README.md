@@ -166,7 +166,7 @@ p_output_fsm : process(s_state)
 
 ### *State diagram*
 
-![State diagram smart](Images/diagram_smart.PNG)
+![State diagram smart](Images/State_diagram_2.png)
 
 ### *Listing of VHDL code of sequential process p_smart_traffic_fsm*
 ```vhdl
