@@ -159,10 +159,10 @@ p_output_fsm : process(s_state)
 
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **None car** | **West car** | **South car** | **Both cars** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| GO_SOUTH | green | red | 3 sec | GO_SOUTH | WAIT_SOUTH | GO_SOUTH | WAIT_SOUTH |
-| WAIT_SOUTH | yellow | red | 1 sec | GO_WEST | GO_WEST | GO_WEST | GO_WEST |
-| GO_WEST | red | green | 3 sec | GO_WEST | GO_WEST | WAIT_WEST | WAIT_WEST |
-| WAIT_WEST | red | yellow | 1 sec | GO_SOUTH | GO_SOUTH | GO_SOUTH | GO_SOUTH |
+| GO_SOUTH | Green | Red | 3 sec | GO_SOUTH | WAIT_SOUTH | GO_SOUTH | WAIT_SOUTH |
+| WAIT_SOUTH | Yellow | Red | 1 sec | GO_WEST | GO_WEST | GO_WEST | GO_WEST |
+| GO_WEST | Red | Green | 3 sec | GO_WEST | GO_WEST | WAIT_WEST | WAIT_WEST |
+| WAIT_WEST | Red | Yellow | 1 sec | GO_SOUTH | GO_SOUTH | GO_SOUTH | GO_SOUTH |
 
 ### *State diagram*
 
